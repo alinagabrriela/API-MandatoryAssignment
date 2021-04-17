@@ -1,0 +1,7 @@
+{
+  "name": "Indoor-Climate-App",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
