@@ -1,12 +1,27 @@
 <ion-header>
-<ion-title>Rooms</ion-title>
-</ion-header>
- 
-<ion-content>
-<ion-list>
-  <ion-item *ngFor="let room of rooms">
-    {{ room.room_name }}
-  </ion-item>
-</ion-list>
- 
-</ion-content>
+
+  <ion-title>Choose room:</ion-title>
+  
+  </ion-header>
+  
+  
+  
+  <ion-content>
+  
+  <ion-list>
+  
+    <ion-item *ngFor="let room of roomArray">
+  
+      {{ room.Room_Name }}
+  
+    </ion-item>
+  
+  </ion-list>
+  
+  <ion-row>
+    <ion-col>
+    <ion-button  [routerLink]="['/qrcode']" class="next" type="submit" color="secondary" expand="block">BACK</ion-button>
+  </ion-col>
+  </ion-row>
+  
+  </ion-content>
