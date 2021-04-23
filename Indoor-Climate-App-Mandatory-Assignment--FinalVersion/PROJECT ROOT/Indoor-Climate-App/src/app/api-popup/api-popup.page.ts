@@ -40,8 +40,6 @@ export class ApiPopupPage implements OnInit {
 
       .subscribe(data => {
 
-        console.log('Data in Room Observable object: ', data);
-
         this.roomArray = data;
 
         console.log('Data in Room array: ', this.roomArray);
