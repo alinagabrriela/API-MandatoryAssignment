@@ -59,6 +59,10 @@ const routes: Routes = [
     path: 'home',
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
   },
+  {
+    path: 'api-popup',
+    loadChildren: () => import('./api-popup/api-popup.module').then( m => m.ApiPopupPageModule)
+  },
 
 
 
